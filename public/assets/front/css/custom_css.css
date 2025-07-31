@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/*Custom Margin Class*/
+.m5{
+    margin: 5px;
+}
+
+.m10{
+    margin: 10px;
+}
+
+.m20{
+    margin: 20px;
+}
+
+.m30{
+    margin: 30px;
+}
+
+.m40{
+    margin: 40px;
+}
+
+.m50{
+    margin: 50px;
+}
+
+
+/*Custom Padding Class*/
+.p5{
+    padding: 5px;
+}
+
+.p10{
+    padding: 10px;
+}
+
+.p20{
+    padding: 20px;
+}
+
+.p30{
+    padding: 30px;
+}
+
+.p40{
+    padding: 40px;
+}
+
+.p50{
+    padding: 50px;
+}
+
+
+/*Custom Font Size Class*/
+.t5{
+    font-size: 5px;
+}
+
+.t10{
+    font-size: 10px;
+}
+
+.t20{
+    font-size: 20px;
+}
+
+.t30{
+    font-size: 30px;
+}
+
+.t40{
+    font-size: 40px;
+}
+
+.t50{
+    font-size: 50px;
+}
+
+
+/*Custom Color Class*/
+.bg_blue_white{
+    background-color: #cfd8e0;
+}
+
+.bg_light_blue{
+    background-color: #4B548B;
+}
+
+.bg_light_darkish_white{
+    background-color: #F7F8F9;
+}
+
+.bg_light_darkish_white2{
+    background-color: #F6F6F6;
+}
+
+.linkedin_bg{
+    background-color: #0178BA;
+}
+
+.instagram_bg{
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.bg_light_blue2{
+    background-color: rgba(102, 139, 165, 0.35);
+}
+
+.instagram_color{
+    color: #CC087F;
+}
+
+.facebook_color{
+    color: #405E9A;
+}
+
+.linkedin_color{
+    color: #016797;
+}
+
+.youtube_color{
+    color: #FF0033;
+}
+
+.trustpilot_color{
+    color: #04DA8D;
+}
+
+.facebook_color_border_bottom{
+    color: #405E9A;
+    border-bottom: 1px dashed #405E9A;;
+}
+
+.bg-trustpilot{
+    background-color: #00012F;
+}
+
+/*Header Section*/
+@media only screen and (max-width: 1024px) {
+    .top_section h4{
+        font-size: 18px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .top_section i.fs-3{
+        font-size: 14px !important;
+    }
+
+    .top_section span{
+        font-size: 12px !important;
+    }
+
+    .top_section .col-md-4{
+        padding: 0 !important;
+    }
+
+    .top_section h4{
+        font-size: 14px !important;
+        margin-bottom: 0 !important;
+    }
+}
